@@ -29,4 +29,4 @@ const StyledButton = (props) => {
     )
 }
 
-export default StyledButton
+export default StyledButton;
