@@ -1,9 +1,10 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
   carContainer: {
      width: '100%',
-     height: '100%'
+    //  height: '100%',
+    height: Dimensions.get('window').height //we can't use height 100% as it iwll show only 1 car item. This will let the indidual item take the window height
   },
 
   titles: {
